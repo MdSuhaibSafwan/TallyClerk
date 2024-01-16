@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tallyclerk"
+version = "0.1.0"
+description = "Cross-document discrepancy detection for trade paperwork: invoices, packing lists, bills of lading, certificates of origin and letters of credit (UCP 600)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Suhaib Safwan", email = "md.suhaib.safwan@gmail.com" }]
+keywords = [
+    "trade-finance", "logistics", "document-ai", "letter-of-credit", "ucp600",
+    "bill-of-lading", "customs", "llm", "vllm", "idp",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "httpx>=0.24",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+pdf = ["pypdf>=4.0"]
+dev = ["pytest>=7.0", "ruff>=0.4"]
+
+[project.scripts]
+tallyclerk = "tallyclerk.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/MdSuhaibSafwan/tallyclerk"
+Repository = "https://github.com/MdSuhaibSafwan/tallyclerk"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tallyclerk = ["samples/*/*.json"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["tallyclerk"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
