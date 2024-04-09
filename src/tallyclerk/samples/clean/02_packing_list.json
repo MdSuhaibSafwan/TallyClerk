@@ -1,0 +1,37 @@
+{
+  "doc_type": "packing_list",
+  "packing_list_number": "MKC/PL/2026/0417",
+  "date": "2026-03-02",
+  "exporter": "MEGHNA KNIT COMPOSITE LIMITED",
+  "consignee": "NORDWIND TEXTIL GMBH, HAMBURG",
+  "incoterm": "FOB CHATTOGRAM",
+  "port_of_loading": "Chattogram",
+  "port_of_discharge": "Hamburg",
+  "containers": [
+    "MSCU 481920 9",
+    "MSCU 481937 0"
+  ],
+  "items": [
+    {
+      "description": "Men's 100% cotton crew-neck T-shirt, knitted",
+      "hs_code": "6109.10.00",
+      "quantity": 24000,
+      "unit": "PCS",
+      "cartons": 480,
+      "net_weight": "4,320.00 KG",
+      "gross_weight": "4,896.00 KG"
+    },
+    {
+      "description": "Men's cotton pique polo shirt, knitted",
+      "hs_code": "6105.10.00",
+      "quantity": 9600,
+      "unit": "PCS",
+      "cartons": 400,
+      "net_weight": "2,688.00 KG",
+      "gross_weight": "3,168.00 KG"
+    }
+  ],
+  "total_packages": "880 CARTONS",
+  "total_net_weight": "7,008.00 KG",
+  "total_gross_weight": "8,064.00 KG"
+}

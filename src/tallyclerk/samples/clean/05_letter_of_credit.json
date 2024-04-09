@@ -1,0 +1,16 @@
+{
+  "doc_type": "letter_of_credit",
+  "credit_number": "DC-HH-26-01187",
+  "date_of_issue": "260120",
+  "applicant": "NORDWIND TEXTIL GMBH, SPEICHERSTADT 7, 20457 HAMBURG",
+  "beneficiary": "MEGHNA KNIT COMPOSITE LTD, GAZIPUR, BANGLADESH",
+  "credit_amount": "USD 96,000.00",
+  "amount_tolerance": "5/5",
+  "incoterm": "FOB CHITTAGONG",
+  "port_of_loading": "CHITTAGONG SEAPORT, BANGLADESH",
+  "port_of_discharge": "HAMBURG PORT, GERMANY",
+  "latest_date_of_shipment": "260310",
+  "date_of_expiry": "260331",
+  "period_for_presentation": "21 DAYS AFTER DATE OF SHIPMENT",
+  "presentation_date": "2026-03-16"
+}

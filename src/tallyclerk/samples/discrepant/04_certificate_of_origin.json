@@ -1,0 +1,22 @@
+{
+  "doc_type": "certificate_of_origin",
+  "certificate_number": "EPB/CGP/2026/118204",
+  "date": "04.03.2026",
+  "exporter": "Meghna Knitwear Industries Ltd.",
+  "consignee": "Nordwind Textil GmbH",
+  "country_of_origin": "BANGLADESH",
+  "items": [
+    {
+      "description": "Men's cotton T-shirts",
+      "hs_code": "6109.10",
+      "quantity": 24000
+    },
+    {
+      "description": "Men's cotton polo shirts",
+      "hs_code": "6106.10",
+      "quantity": 9600
+    }
+  ],
+  "packages": 880,
+  "gross_weight": "8064 KG"
+}

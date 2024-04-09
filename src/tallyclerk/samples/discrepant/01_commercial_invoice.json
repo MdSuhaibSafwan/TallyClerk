@@ -1,0 +1,35 @@
+{
+  "doc_type": "commercial_invoice",
+  "invoice_number": "MKC/EXP/2026/0417",
+  "invoice_date": "02 MAR 2026",
+  "seller": "Meghna Knit Composite Ltd., Plot 14, BSCIC Industrial Estate, Gazipur, Bangladesh",
+  "buyer": "Nordwind Textil GmbH, Speicherstadt 7, 20457 Hamburg, Germany",
+  "currency": "USD",
+  "incoterm": "FOB Chittagong, Incoterms 2020",
+  "port_of_loading": "Chittagong, Bangladesh",
+  "port_of_discharge": "Hamburg, Germany",
+  "lc_number": "DC-HH-26-01187",
+  "country_of_origin": "Bangladesh",
+  "items": [
+    {
+      "description": "Men's 100% cotton crew-neck T-shirt, knitted",
+      "hs_code": "6109.10.00",
+      "quantity": "24,000",
+      "unit": "PCS",
+      "unit_price": "2.15",
+      "amount": "51,600.00"
+    },
+    {
+      "description": "Men's cotton pique polo shirt, knitted",
+      "hs_code": "6105.10.00",
+      "quantity": "9,600",
+      "unit": "PCS",
+      "unit_price": "4.60",
+      "amount": "44,610.00"
+    }
+  ],
+  "total_amount": "USD 96,210.00",
+  "packages": "880 CTNS",
+  "net_weight": "7,008.00 KGS",
+  "gross_weight": "8,064.00 KGS"
+}

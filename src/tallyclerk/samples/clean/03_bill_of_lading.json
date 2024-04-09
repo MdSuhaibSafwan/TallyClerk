@@ -1,0 +1,16 @@
+{
+  "doc_type": "bill_of_lading",
+  "bl_number": "KSL-CGP-HAM-260311",
+  "date_of_issue": "06 MAR 2026",
+  "shipper": "MEGHNA KNIT COMPOSITE LTD.",
+  "consignee": "TO THE ORDER OF HANSEATIC HANDELSBANK AG, HAMBURG",
+  "notify_party": "NORDWIND TEXTIL G.M.B.H., SPEICHERSTADT 7, HAMBURG",
+  "vessel": "MV KARNAPHULI STAR V.026W",
+  "port_of_loading": "CHATTOGRAM, BANGLADESH (BDCGP)",
+  "port_of_discharge": "HAMBURG, GERMANY (DEHAM)",
+  "shipped_on_board": "06 MAR 2026",
+  "containers": "MSCU4819209, MSCU4819370",
+  "packages": "880 (EIGHT HUNDRED EIGHTY) CARTONS",
+  "gross_weight": "17,778 LBS",
+  "freight_terms": "FREIGHT COLLECT"
+}
